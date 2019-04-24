@@ -1,0 +1,97 @@
+body{
+	font-family:Trebuchet MS;
+}
+.main{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow:0px 0px 1px 3px #cde2ee;
+    border: #EF8128 solid 3px; 
+}
+header{
+    background-color: #EF8128;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+h2{
+    background: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+p{
+    background: #ffffff;
+    margin: 0;
+    padding: 10px;
+}
+span:first-child{
+    position: relative;
+    top: -40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+span:nth-child(2n){
+    font-size: 72px;
+    font-weight: bold;
+}
+sub{
+    font-weight: bold;
+    font-size: 16px;
+}
+ul{
+    background:#ffffff;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+li:nth-child(odd){
+    background: #F5F6F6;
+}
+li:nth-child(even){
+    background: #EEF5FD;
+}
+li{
+    padding: 4px 0 4px 40px;
+    position: relative;
+    left: -25px;
+    margin-bottom: 1px;
+    width: 230px;
+    color: gray;
+}
+li:before{
+	content:"";
+	background: url(g.png);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.list{
+    background: #ffffff;
+}
+.button{
+
+    text-transform: uppercase;
+	width: 250px;
+	background-color: #ee8129;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+    padding: 10px 5px;
+    box-shadow: 0 3px #b3560b;	
+	transition: 0.2s;    
+}
+.button:hover{
+	box-shadow: none;
+}
